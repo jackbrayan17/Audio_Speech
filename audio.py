@@ -1,5 +1,6 @@
 import streamlit as st
 from groq import Groq
+st.set_page_config(page_title="Audio-to-speech", page_icon="", layout="centered")
 
 # Streamlit UI
 st.title("🎙️ Audio to Text avec Groq Whisper Large V3 🚀")
